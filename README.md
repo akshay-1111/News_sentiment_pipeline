@@ -61,9 +61,14 @@
 
 ## Project Structure and File Descriptions
 - lambda_function.py	             =     AWS Lambda function that fetches  news using an external API, performs sentiment analysis using TextBlob, stores raw data in S3 and structured insights in Amazon RDS
+
+  
 - streamlit_dashboard/app.py       =     Streamlit app that reads news data from PostgreSQL and visualizes news sentiment
+  
 - streamlit_dashboard/Dockerfile   =	   Dockerfile for containerizing the Streamlit app (runs on port 8501)
+  
 - requirments.txt                  =     dependencies required by  Lambda_function.py
+  
 - app.py/requirements.txt          =     dependencies for your Streamlit dashboard
 
 
