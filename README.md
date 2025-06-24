@@ -54,6 +54,7 @@
 ##  Prerequisites
 
 -  IAM roles for Lambda, ECS task execution, S3, and RDS access.
+-  sg,subnets creation
 -  PostgreSQL DB created on RDS (with public access disabled).
 -  A Bastion EC2 instance in public subnet (to access RDS(in postgressql) securely).
 -  NewsAPI key (https://newsapi.org/)
@@ -66,5 +67,6 @@
 - app.py/requirements.txt          =     dependencies for your Streamlit dashboard
 
 
-
+## 📊 Streamlit dashboard
+![Streamlit dashboard](https://github.com/akshay-1111/News_sentiment_pipeline/blob/687f779793b599612c1e4a3c34fb51741df79fa9/streamlit_dashboard.png)
 
